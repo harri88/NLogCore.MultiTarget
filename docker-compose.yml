@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  nlogcore.multitarget.web:
+    image: nlogcoremultitargetweb
+    build:
+      context: .
+      dockerfile: NLogCore.MultiTarget.Web/Dockerfile
